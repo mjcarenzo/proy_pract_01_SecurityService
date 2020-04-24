@@ -1,0 +1,224 @@
+/* General */
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: gold;
+    font-size: 6em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2,
+p,
+li,
+th,
+td,
+label {
+    color: white;
+}
+
+/* Header */
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    margin-top: 15px;
+    width: 500px;
+    height: 270px;
+}
+
+.navegacion ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    font-size: 4em;
+}
+
+.navegacion ul li:last-of-type {
+    margin-right: 0;
+}
+
+.navegacion a {
+    margin-right: 55px;
+    color: #eee;
+}
+
+.navegacion a:hover {
+    color: goldenrod;
+    transition: ease-in .3s;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+/* Body */
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 90%;
+    border-top: 1px solid gold;
+    border-bottom: 1px solid gold;
+}
+
+article p:before {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: .05rem;
+    background-color: gold;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.articulo-uno {
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.articulo-dos {
+    margin: 0 auto;
+    max-width: 90%;
+    padding-bottom: 70px;
+}
+
+.articulo-uno h2:last-of-type {
+    padding-top: 75px;
+}
+
+.articulo-dos h2 {
+    text-align: center;
+}
+
+.articulo-tabla {
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+/*Tabla*/
+
+tr,
+td,
+th {
+    border: 3px solid gold;
+}
+
+td,
+th {
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+table {
+    table-layout: fixed;
+    margin: 15px auto;
+    width: 90%;
+    border-collapse: collapse;
+    border: 3px solid gold;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+/* Formulario */
+
+.articulo-formulario {
+    margin: 0 auto;
+    max-width: 90%;
+    padding-bottom: 70px;
+}
+
+.articulo-formulario h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+form {
+    font-size: 1.2em;
+}
+
+input {
+    display: block;
+    margin-top: 5px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+input[type="checkbox"],
+[type="radio"] {
+    display: inline;
+}
+
+fieldset {
+    margin-bottom: 15px;
+}
+
+legend {
+    color: white;
+}
+
+.boton {
+    margin: 25px auto;
+    background-color: goldenrod;
+    padding: 10px 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    transition: all .3s ease;
+    border: 1px solid gold;
+}
+
+.boton:hover {
+    background-color: gold;
+    cursor: pointer;
+}
+
+/* Extras */
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+p span {
+    font-weight: bold;
+    color: gray;
+}
+
+li {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin-bottom: 0;
+}
+
+/* Footer */
+.pie {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.pie p {
+    color: gold;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Contacto</title>
+    <meta charset="utf-8">
+    <meta name="description" content="seguridad">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="logo">
+        </div>
+        <nav class="navegacion">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contenedor-principal">
+            <article class="articulo-uno">
+                <h1>EAGLE WATCH</h1>
+                <h2>Contrataciones</h2>
+                <p>Para contratar nuestros servicios complete el siguiente formulario y nos pondremos en
+                    contacto con usted a la brevedad o <span> llamanos al +543413036566 </span></p>
+            </article>
+            <article class="articulo-formulario">
+                <h2>Formulario</h2>
+                <form>
+                    <fieldset>
+                        <legend>Informacion Personal</legend>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre"><br><br>
+
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido"><br><br>
+
+                        <label for="integrantes">Integrantes del grupo familiar:</label>
+                        <input type="number" id="integrantes" name="integrantes"><br><br>
+
+                        <label for="genero">Genero</label><br>
+                        <input type="radio" id="masculino" name="genero" value="masculino">
+                        <label for="masculino">Masculino</label><br>
+                        <input type="radio" id="femenino" name="genero" value="femenino">
+                        <label for="femenino">Femenino</label><br>
+                        <input type="radio" id="otro" name="genero" value="otro">
+                        <label for="otro">Otro</label><br><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Otros Datos</legend>
+                        <label for="email">Correo electronico:</label>
+                        <input type="email" id="email" name="email" required><br><br>
+
+                        <label for="provincia">Provincia:</label>
+                        <select name="provincia">
+                            <option value="s">Santa Fe</option>
+                            <option value="e">Entre Rios</option>
+                            <option value="c">Cordoba</option>
+                        </select><br><br>
+
+                        <label for="estudiante">Es estudiante</label><br>
+                        <input type="checkbox" id="estudiante" name="estudiante" value="si">
+                        <label for="estudiante"> Si</label><br>
+                        <input type="checkbox" id="estudiante" name="estudiante" value="no">
+                        <label for="estudiante"> No</label><br><br>
+
+                        <label for="textarea">Deje un comentario adicional</label><br>
+                        <textarea name="textarea" rows="10" cols="50">Escriba aqui...</textarea><br><br>
+                    </fieldset>
+
+                    <input type="submit" value="Enviar" class="boton">
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="pie">
+            <p>Derechos Reservados &copy; 2020 - SECURITY WATCH</p>
+        </div>
+    </footer>
+    <!--Desarrollado por Matias Carenzo-->
+</body>
+
+</html>
